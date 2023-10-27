@@ -1,0 +1,133 @@
+.user {
+  flex: 4;
+  padding: 20px;
+}
+.user .userTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user .userTitleContainer .userAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+.user .userContainer {
+  display: flex;
+  margin-top: 20px;
+}
+.user .userContainer .userShow {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+}
+.user .userContainer .userShow .userShowTop {
+  display: flex;
+  align-items: center;
+}
+.user .userContainer .userShow .userShowTop .userShowImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user .userContainer .userShow .userShowTop .userShowTopTitle {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.user .userContainer .userShow .userShowTop .userShowTopTitle .userShowUsername {
+  font-weight: 600;
+}
+.user .userContainer .userShow .userShowTop .userShowTopTitle .showUserTitle {
+  font-weight: 300;
+}
+.user .userContainer .userShow .userShowBottom {
+  margin-top: 20px;
+}
+.user .userContainer .userShow .userShowBottom .userShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(173, 173, 173);
+}
+.user .userContainer .userShow .userShowBottom .userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  color: #444;
+}
+.user .userContainer .userShow .userShowBottom .userShowInfo .userShowIcon {
+  font-size: 16px !important;
+}
+.user .userContainer .userShow .userShowBottom .userShowInfo .userShowInfoTitle {
+  margin-left: 10px;
+}
+.user .userContainer .userUpdate {
+  flex: 2;
+  padding: 20px;
+  box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  margin-left: 20px;
+}
+.user .userContainer .userUpdate .userUpdateTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+.user .userContainer .userUpdate .userUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateLeft .userUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateLeft .userUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid gray;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateRight .userUpdateUpload {
+  display: flex;
+  align-items: center;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateRight .userUpdateImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 20px;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateRight .userUpdateIcon {
+  cursor: pointer;
+}
+.user .userContainer .userUpdate .userUpdateForm .userUpdateRight .userUpdateBtn {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #27374D;
+  color: white;
+  font-weight: 600;
+}/*# sourceMappingURL=user.css.map */

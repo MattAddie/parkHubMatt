@@ -1,0 +1,62 @@
+.analytics{
+  flex: 4;
+  
+.statics{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  margin-top: 2rem;
+  
+
+  .stats{
+    background: var(--primary-color);
+    padding: 30px;
+    border-radius: 5px;
+    height: 320px;
+    padding-bottom: 50px;
+
+    .tooltip_style{
+      background: var(--body-bg) !important;
+      color: #fff;
+    }
+    
+    .stats_title{
+      color: #202d41;
+      font-size: 1.2rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .dashboard {
+        margin-top: 70px;
+        padding: 0px 15px;
+      }
+    
+      .single_card {
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 1rem;
+      }
+    
+      .dashboard_cards,
+      .statics {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    
+      .stats {
+        height: auto;
+        padding: 20px;
+        padding-bottom: 30px;
+      }
+    }
+
+     
+  }
+  
+ 
+}
+  
+}
+
+

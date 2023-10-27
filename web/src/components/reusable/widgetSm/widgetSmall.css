@@ -1,0 +1,54 @@
+.widgetSm {
+  flex: 1;
+  box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.36);
+  padding: 20px;
+  margin-right: 20px;
+}
+.widgetSm .widgetSmTitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+.widgetSm .widgetSmList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.widgetSm .widgetSmList .widgetSmListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmUser {
+  display: flex;
+  flex-direction: column;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmUser .widgetSmUserName {
+  font-weight: 600;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmUser .widgetSmUserTitle {
+  font-weight: 300;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmBtn {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: #eeeef7;
+  color: #555;
+  cursor: pointer;
+}
+.widgetSm .widgetSmList .widgetSmListItem .widgetSmBtn .widgetSmIcon {
+  font-size: 16px !important;
+  margin-right: 5px;
+}/*# sourceMappingURL=widgetSmall.css.map */
